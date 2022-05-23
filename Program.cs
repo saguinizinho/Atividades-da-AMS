@@ -1,8 +1,6 @@
-﻿int idadeMin =20;
-int idadeMAX =50;
-int mediaAluno =0;
+﻿double euro = 5.13;
+double real = 0;
+double quantidade = 750;
 
-mediaAluno =  (idadeMAX + idadeMin) /2 ;
-
-Console.WriteLine ($"A média de idae é: {mediaAluno}");
-
+real = (quantidade * euro);
+Console.WriteLine ($"O valor em real é: {real}");
