@@ -1,6 +1,5 @@
-﻿double euro = 5.13;
-double real = 0;
-double quantidade = 750;
+﻿int valorVendido = 500000;
+int porcentagem = 5;
+int resultado = valorVendido * porcentagem / 100;
 
-real = (quantidade * euro);
-Console.WriteLine ($"O valor em real é: {real}");
+Console.WriteLine($"o 5% de 500000 é: {resultado} ");
