@@ -1,5 +1,8 @@
-﻿int valorVendido = 500000;
-int porcentagem = 5;
-int resultado = valorVendido * porcentagem / 100;
+﻿int idadeMin =20;
+int idadeMAX =50;
+int mediaAluno =0;
 
-Console.WriteLine($"o 5% de 500000 é: {resultado} ");
+mediaAluno =  (idadeMAX + idadeMin) /2 ;
+
+Console.WriteLine ($"A média de idae é: {mediaAluno}");
+
