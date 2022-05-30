@@ -1,0 +1,14 @@
+double resistencia = 0;
+double tensao = 0;
+double intensidade = 0;
+
+Console.Write("Digite o valor da tensão elétrica :");
+tensao = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Digite o valor da resistencia elétrica :");
+resistencia = Convert.ToDouble(Console.ReadLine());
+
+
+intensidade = (tensao / resistencia);
+
+Console.WriteLine($"O valor da intensidade é: {intensidade} amperes (A) ");
